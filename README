@@ -1,6 +1,6 @@
-BACKEND: app folder
+Back-end: app folder
 
-Frontend: public folder
+Front-end: public folder
 
 
 Explain basic security terms like authentication, authorization, confidentiality, integrity, SSL/TLS and
