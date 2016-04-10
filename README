@@ -1,10 +1,13 @@
+Demonstrate, with focus on security, a proposal for an Express/Mongo+Angular-seed with built in support
+for most of the basic security problems, SSL and ready to deploy on your favourite Cloud Hosting Service:
+
 Back-end: app folder.
 
 Front-end: public folder.
 
 
 Explain basic security terms like authentication, authorization, confidentiality, integrity, SSL/TLS and
-provide examples of how you have used them.
+provide examples of how you have used them:
 
 Authentication:
 Confirming the identity of a client (via some kind of login procedure)
@@ -15,9 +18,13 @@ Protection from disclosure to unauthorised persons
 Integrity:
 Maintaining data consistency (data cannot be modified)
 
-Explain basic security threads like: Cross Site Scripting (XSS), SQL Injection and whether something similar
-to SQL injection is possible with NoSQL databases like MongoDB, and DOS-attacks. Explain/demonstrate
-ways to cope with these problems
+
+Explain basic security threads like:
+Cross Site Scripting (XSS):
+
+SQL Injection:
+SQL injection is a technique where malicious users can inject SQL commands into an SQL statement, via web page input.
+Injected SQL commands can alter SQL statement and compromise the security of a web application.
 
 
 Explain, at a fundamental level, the technologies involved, and the steps required initialize a SSL connection
@@ -37,11 +44,8 @@ Explain about JSON Web Tokens (jwt) and why they are very suited for a REST-base
 Explain and demonstrate a system using jwt's, focusing on both client and server side.
 
 
-Explain and demonstrate use of the npm passportjs module
+Explain and demonstrate use of the npm passportjs module:
+https://github.com/Sindt/Passportjs-facebook.git
 
 
 Explain, at a very basic level, OAuth 2 + OpenID Connect and the problems it solves.
-
-
-Demonstrate, with focus on security, a proposal for an Express/Mongo+Angular-seed with built in support
-for most of the basic security problems, SSL and ready to deploy on your favourite Cloud Hosting Service.
