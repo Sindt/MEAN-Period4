@@ -37,7 +37,7 @@ Explain and demonstrate ways to protect user passwords on our backends, and why 
 Explain about password hashing, salts and the difference between bcrypt and older (not recommended)
 algorithms like sha1, md5 etc:
 
-Bcrypt is slow compared to the older methods. That's the purpose.
+Bcrypt is slow compared to the older methods like sha and md5. That's the purpose.
 
 
 Explain about JSON Web Tokens (jwt) and why they are very suited for a REST-based API
