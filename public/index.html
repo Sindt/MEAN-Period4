@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head ng-app="myApp">
+<html ng-app="myApp">
+<head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
 
     <script src="libs/jquery/dist/jquery.min.js"></script>
     <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -18,19 +19,16 @@
     <script src="js/app.js"></script>
 </head>
 <body>
-<div class="container" ng-controller="MainController as ctrl">
+<div class="container">
     <nav class="navbar navbar-inverse">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">LOGO</a>
+            <a class="navbar-brand" href="#/">LOGO</a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a href="/#">Sign up</a></li>
+            <li><a href="#/signup">Sign up</a></li>
+            <li><a href="#/users">Users</a></li>
         </ul>
     </nav>
-    <div class="page-header">
-        <h2>Page Header</h2>
-    </div>
-
     <div ng-view></div>
 </div>
 </body>

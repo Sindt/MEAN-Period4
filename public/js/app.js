@@ -1,3 +1,1 @@
-/**
- * Created by Sindt on 06-04-2016.
- */
+angular.module('myApp', ['ngRoute', 'Routes', 'MainCtrl', 'Factory']);
