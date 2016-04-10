@@ -1,11 +1,19 @@
-Back-end: app folder
+Back-end: app folder.
 
-Front-end: public folder
+Front-end: public folder.
 
 
 Explain basic security terms like authentication, authorization, confidentiality, integrity, SSL/TLS and
 provide examples of how you have used them.
 
+Authentication:
+Confirming the identity of a client (via some kind of login procedure)
+Authorization:
+Determing whether an authenticated client is allowed to receive a service or perform an operation
+Confidentiality:
+Protection from disclosure to unauthorised persons
+Integrity:
+Maintaining data consistency (data cannot be modified)
 
 Explain basic security threads like: Cross Site Scripting (XSS), SQL Injection and whether something similar
 to SQL injection is possible with NoSQL databases like MongoDB, and DOS-attacks. Explain/demonstrate
