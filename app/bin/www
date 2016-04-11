@@ -12,7 +12,7 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3000);
+var port = normalizePort(process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080);
 app.set('port', port);
 var ip = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
 app.set('ip',ip );
@@ -21,7 +21,7 @@ var server = http.createServer(app);
 //The db.js file refered to in the slide-set
 var db = require("../../app/db/db");
 //Connection string to your local database (replace xxx with relevant info)
-var connection_string = "mongodb://localhost:27017/test";
+var connection_string = "mongodb://127.0.0.1:27017/test";
 if(process.env.OPENSHIFT_MONGODB_DB_PASSWORD){
   connection_string = 'mongodb://'+ process.env.OPENSHIFT_MONGODB_DB_USERNAME + ":" +
       process.env.OPENSHIFT_MONGODB_DB_PASSWORD + "@" +
